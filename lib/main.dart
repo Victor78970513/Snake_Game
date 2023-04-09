@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Material App',
       home: HomeScreen(),
+      theme: ThemeData(brightness: Brightness.dark),
     );
   }
 }
